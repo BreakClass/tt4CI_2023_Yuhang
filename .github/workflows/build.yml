@@ -32,4 +32,4 @@ jobs:
     - name: Run tests
       run: mvn clean test
     - name: testSubtraction
-      run: assertEquals(2, c.subtract(4,2))
+      run: assertEquals(2, result);
